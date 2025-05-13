@@ -15,10 +15,12 @@ header {
   justify-content: space-between;
   padding-left: 50px;
   padding-right: 50px;
+  height: 60px;
 }
 
 nav {
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 
@@ -29,11 +31,6 @@ nav {
   padding-top: 22.5px;
   padding-bottom: 22.5px;
   position: relative;
-}
-
-.img {
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 a:hover {
